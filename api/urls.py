@@ -8,3 +8,7 @@ router = routers.DefaultRouter()
 urlpatterns = [
     path('',include(router.urls)),
 ]
+
+
+def serializers():
+    return 1
